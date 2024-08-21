@@ -1,0 +1,155 @@
+body{
+  background-color: #fafafa;
+}
+.navbar {
+    padding: 25px 0;
+}
+.navbar .navbar-brand{
+    color: #6d28d9;
+    font-family: cassandra, "poppins", Tahoma;
+    font-size: 1.3em;
+}
+.navbar-brand{
+  color: #6d28d9;
+  font-family: cassandra, "poppins", Tahoma;
+  font-size: 1.7em;
+}
+
+.navbar-brand span{
+  color: rgb(95, 92, 70);
+}
+.navbar a{
+    font-family: cassandra, "poppins", Tahoma;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.society-info{
+  margin-bottom: 50px;
+}
+.society-info .welcome{
+  font-size: 1.8em;
+  font-family: sans-serif;
+}
+.society-info .accroche{
+  display: block;
+  font-size: 1.2em;
+  font-family: serif;
+  text-indent: 3%;
+}
+
+.society-description{
+  font-size: 1.3em;
+  text-indent: 10%;
+}
+
+.society-stats{
+  margin: 50px 0;
+  text-align: center;
+  color: #6d28d9;
+}
+.navbar a:hover{
+  color: #6d28d9;
+}
+.card-text{
+  color: #8b8594;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  .navbar-nav .nav-item {
+    margin: 0 10px;
+  }
+  hr{
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+  h1{
+    color: #5a5267;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-weight: lighter;
+    font-size: 1.7em;
+  }
+  .active{
+    border-bottom: 2px solid #524355;
+    transform: scale(1.1);
+    transition: border-bottom 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+
+  .page-content{
+      /* display: flex; */
+      margin: 70px 65px;
+  }
+  
+  .container{
+      width: 80%;
+  }
+  .container h1{
+      font-weight: 700;
+  }
+ .conteneur{
+      margin: auto;
+      width: 35%;
+ }
+ .conteneur .contenu-btn{
+      margin-top: 10px;
+}
+  .form-content input{
+      border: 1px solid rgb(176, 168, 168);
+      border-radius: 15px;
+  }
+  label{
+      text-transform: uppercase;
+  }
+  .error-msg{
+      color: #644646;
+      font-family: 'JetBrains Mono', Courier, monospace;
+      font-weight: lighter;
+      font-size: 0.8em;
+  }
+
+  .table-categorie{
+    width: 80%;
+    margin: auto;
+  }
+
+  .table-categorie th, .table-categorie td{
+    width: 30%;
+  }
+
+ .btn-info{
+      border: none;
+      background-color: #797256;
+      color: #fff;
+  }
+  .btn-info:hover{
+      background-color: #877e61;
+      color: #fff;
+  }
+ .btn-danger{
+      background-color: #8a4242;
+      color: #fff;
+  }
+  .btn-danger:hover{
+      background-color: #531616;
+      color: #a37373;
+  }
+
+  .btn-submit{
+    background-color: #9182ac;
+    border: none;
+  }
+  .btn-submit:hover{
+    background-color: #625675;
+  }
